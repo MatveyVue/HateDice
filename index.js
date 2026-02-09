@@ -12,7 +12,7 @@ const MAX_STAKE = 5;
 const MIN_DEPOSIT = 0.1;
 const ADMIN_USERNAME = process.env.ADMIN_USERNAME || '@whsxt';
 const PORT = process.env.PORT || 3000;
-const WEBHOOK_URL = process.env.WEBHOOK_URL || `https://your-app-name.onrender.com`;
+const WEBHOOK_URL = process.env.WEBHOOK_URL || `https://hate-dice.vercel.app`;
 const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || crypto.randomBytes(32).toString('hex');
 
 // TON конфигурация
